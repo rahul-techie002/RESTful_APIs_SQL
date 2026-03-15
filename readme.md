@@ -1,8 +1,8 @@
 
 # Simple project----->>>
 
-motive of this simple project is to learn REST ful APIs with SQL database to perfome CRUD operartion ,not focused on styling 
-It simple project store users credentail
+motive of this simple project is to learn REST ful APIs with SQL database to perfome CRUD operartion ,not focused on styling .
+It simple project store users credential
 
 # tool------>>
 
