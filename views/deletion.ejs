@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete credential</title>
+</head>
+<body>
+    <h1>Enter your credential to delete</h1>
+
+    <form method="post" action="/user/deletion?_method=DELETE">
+
+        <label for="dEmail"> Entire email* <br> <br>
+            <input type="text" name="deleEmail" id="dEmail" placeholder="Entire email">
+        </label>
+
+        <br><br>
+
+        <label for="dPassword">Enter password* <br> <br>
+         <input type="text" name="delePassword" placeholder="Entire password" id="dPassword">
+        </label>
+
+        <br> <br>
+
+        <button>Delete</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "backend_sql",
+  "version": "1.0.0",
+  "description": "motive of this simple project is to learn REST ful APIs with SQL database to perfome CRUD operartion ,not focused on styling \r It simple project store users credentail",
+  "keywords": [],
+  "homepage": "https://github.com/rahul-techie002/RESTful_APIs_SQL#readme",
+  "bugs": {
+    "url": "https://github.com/rahul-techie002/RESTful_APIs_SQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-techie002/RESTful_APIs_SQL.git"
+  },
+  "license": "ISC",
+  "author": "rahul",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.19.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.3.0"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all users data</title>
+</head>
+
+<body>
+    <table border="2px black">
+        <caption><b>Users Credentails</b></caption>
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Username</th>
+
+        </tr>
+
+        <% for(result of results) { %>
+
+            <tr>
+                <td>
+                    <%= result.userId %>
+                </td>
+                <td>
+                    <%= result.email %>
+                </td>
+                <td>
+                    <%= result.userName %>
+                </td>
+
+                <td>
+                    <form method="GET" action="/user/<%= result.userId %>/edit">
+                        <button>Edit</button>
+                    </form>
+                </td>
+
+                <td>
+                    <form method="get" action="/user/deletion">
+                        <button>Delete</button>
+                    </form>
+                </td>
+
+            </tr>
+
+            <% } %>
+    </table>
+
+</body>
+
+</html>

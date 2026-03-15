@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit data</title>
+</head>
+
+<body>
+    <h1>Update your credentail: <i><%= result[0].email %></i></h1>
+
+    <form method="post" action="/user/<%= result[0].userId %>?_method=PATCH">
+
+        <label for="" userName""> Username: <br>
+
+            <textarea name="editUserName" id="userName"><%= result[0].userName %></textarea>
+        </label>
+        <br> <br>
+        <label for="userEmail">Email: <br>
+
+            <textarea name="editeMail" id="userEmail"><%= result[0].email %></textarea>
+        </label>
+        <br> <br>
+        <label for="userPass">Password* <br>
+
+            <input type="text" name="authPassword" id="userPass" placeholder="Enter your password "> <br>
+        </label>
+        <br> <br>
+
+        <button>Submit</button>
+
+    </form>
+
+    <div>
+
+    </div>
+
+</body>
+
+</html>
